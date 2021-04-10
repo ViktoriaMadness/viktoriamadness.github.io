@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="49bc20ed302c4512b56fa53a24444266" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_49bc20ed302c4512b56fa53a24444266 = echarts.init(
+            document.getElementById('49bc20ed302c4512b56fa53a24444266'), 'white', {renderer: 'canvas'});
+        var option_49bc20ed302c4512b56fa53a24444266 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Argentina",
+                    "value": [
+                        -63.62,
+                        -38.42,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": [
+                        116.407526,
+                        39.90403,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u53f0\u6e7e",
+                    "value": [
+                        121.509062,
+                        25.044332,
+                        11695
+                    ]
+                },
+                {
+                    "name": "Spain",
+                    "value": [
+                        -3.75,
+                        40.46,
+                        13015
+                    ]
+                },
+                {
+                    "name": "Netherlands",
+                    "value": [
+                        5.29,
+                        52.13,
+                        20103
+                    ]
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": [
+                        -3.44,
+                        55.38,
+                        22110
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u822a\u7a7a\u7ebf",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Argentina->Colombia",
+                    "coords": [
+                        [
+                            -63.62,
+                            -38.42
+                        ],
+                        [
+                            -74.3,
+                            4.57
+                        ]
+                    ]
+                },
+                {
+                    "name": "Colombia->Costa Rica",
+                    "coords": [
+                        [
+                            -74.3,
+                            4.57
+                        ],
+                        [
+                            -83.75,
+                            9.75
+                        ]
+                    ]
+                },
+                {
+                    "name": "Costa Rica->Los Angeles",
+                    "coords": [
+                        [
+                            -83.75,
+                            9.75
+                        ],
+                        [
+                            -118.15,
+                            34.04
+                        ]
+                    ]
+                },
+                {
+                    "name": "Los Angeles->\u53f0\u6e7e",
+                    "coords": [
+                        [
+                            -118.15,
+                            34.04
+                        ],
+                        [
+                            121.509062,
+                            25.044332
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u53f0\u6e7e->\u5317\u4eac",
+                    "coords": [
+                        [
+                            121.509062,
+                            25.044332
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                },
+                {
+                    "name": "Argentina->Spain",
+                    "coords": [
+                        [
+                            -63.62,
+                            -38.42
+                        ],
+                        [
+                            -3.75,
+                            40.46
+                        ]
+                    ]
+                },
+                {
+                    "name": "Spain->Algeria",
+                    "coords": [
+                        [
+                            -3.75,
+                            40.46
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Algeria->\u5317\u4eac",
+                    "coords": [
+                        [
+                            1.66,
+                            28.03
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                },
+                {
+                    "name": "Argentina->Netherlands",
+                    "coords": [
+                        [
+                            -63.62,
+                            -38.42
+                        ],
+                        [
+                            5.29,
+                            52.13
+                        ]
+                    ]
+                },
+                {
+                    "name": "Netherlands->Russia",
+                    "coords": [
+                        [
+                            5.29,
+                            52.13
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->\u4e0a\u6d77",
+                    "coords": [
+                        [
+                            105.32,
+                            61.52
+                        ],
+                        [
+                            121.473701,
+                            31.230416
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77->\u5317\u4eac",
+                    "coords": [
+                        [
+                            121.473701,
+                            31.230416
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                },
+                {
+                    "name": "Argentina->Brazil",
+                    "coords": [
+                        [
+                            -63.62,
+                            -38.42
+                        ],
+                        [
+                            -51.93,
+                            -14.24
+                        ]
+                    ]
+                },
+                {
+                    "name": "Brazil->United Kingdom",
+                    "coords": [
+                        [
+                            -51.93,
+                            -14.24
+                        ],
+                        [
+                            -3.44,
+                            55.38
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Kingdom->Korea",
+                    "coords": [
+                        [
+                            -3.44,
+                            55.38
+                        ],
+                        [
+                            127.98,
+                            37.66
+                        ]
+                    ]
+                },
+                {
+                    "name": "Korea->\u9752\u5c9b",
+                    "coords": [
+                        [
+                            127.98,
+                            37.66
+                        ],
+                        [
+                            120.33,
+                            36.07
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u9752\u5c9b->\u5317\u4eac",
+                    "coords": [
+                        [
+                            120.33,
+                            36.07
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "\u822a\u7a7a\u7ebf"
+            ],
+            "selected": {
+                "": true,
+                "\u822a\u7a7a\u7ebf": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "2021\u963f\u6839\u5ef7\u5230\u4e2d\u56fd\u822a\u7a7a\u7ebf",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 23000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "itemStyle": {
+            "color": "white",
+            "borderColor": "blue"
+        },
+        "emphasis": {}
+    }
+};
+        chart_49bc20ed302c4512b56fa53a24444266.setOption(option_49bc20ed302c4512b56fa53a24444266);
+    </script>
+</body>
+</html>
