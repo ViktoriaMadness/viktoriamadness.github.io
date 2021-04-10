@@ -8,7 +8,18 @@
    
    [作业1A链接](https://viktoriamadness.github.io/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E4%BA%BA%E7%89%A9%E8%AF%8D%E9%A2%91%20A.html)
    
+### 作业1B - 词云
+   效果不是很好因为人物量太少了。
    
+   [作业1B链接](https://viktoriamadness.github.io/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E4%BA%BA%E7%89%A9%E8%AF%8D%E4%BA%91%20B.html)
+   
+### 作业1C - 饼图
+   这种饼图可以清楚了解很多信息（之前的柱状图里输入的百分比数据是从这得出的），但是还是对展示方式不是很满意，继续尝试。
+   
+   [作业1C链接](https://viktoriamadness.github.io/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E4%BA%BA%E7%89%A9%E8%AF%8D%E9%A2%91%20C.html)
+   
+### 作业1D - 关系图
+   从第一堂课看到它，就想尝试一下。很有趣，比一个百分比数据更有意思地能看到人物之间的重要性区别。
 
 ## 2. 作业2
    描述
