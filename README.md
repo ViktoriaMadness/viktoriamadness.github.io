@@ -5,6 +5,7 @@
    
 ### 作业1A - 柱状图
    想用overlap，展现各种人物的出现次数加上百分比数据。做完后，觉得效果不理想，因为两个形式提供的视觉效果差不多，并没有添加什么内容。
+   
    [作业1A链接](https://viktoriamadness.github.io/%E8%A5%BF%E6%B8%B8%E8%AE%B0%E4%BA%BA%E7%89%A9%E8%AF%8D%E9%A2%91%20A.html)
    
    
