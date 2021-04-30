@@ -1,3 +1,14 @@
+# 计算机科学与编程入门课程第三次作业
+## 2002010536 Zhong, Victoria
+## 1. 作业1
+   关系图
+   
+   [作业1链接](https://viktoriamadness.github.io/%E5%85%B3%E7%B3%BB%E5%9B%BE-%E5%88%86%E7%B1%BB-%E8%A5%BF%E6%B8%B8%E8%AE%B0.html)
+   
+## 2. 作业2
+   关
+   
+
 # 计算机科学与编程入门课程第二次作业
 ## 2002010536 Zhong, Victoria
 ## 1. 作业1
