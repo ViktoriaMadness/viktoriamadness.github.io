@@ -7,7 +7,9 @@
    [作业1链接](https://viktoriamadness.github.io/%E5%85%B3%E7%B3%BB%E5%9B%BE-%E5%88%86%E7%B1%BB-%E8%A5%BF%E6%B8%B8%E8%AE%B0.html)
    
 ## 2. 作业2
-   用bootstrap
+   用bootstrap实现美观版式, 设计了一个注册网页，能收到电影的推荐、评论和比较。下面可以直接开始在百度搜索感兴趣的电影~
+   
+   [作业2链接](https://viktoriamadness.github.io/%E6%B3%A8%E5%86%8C.html)
    
 ## 3. 作业3
    我有个韩国同学，我们叫他东东。他很喜欢出去吃饭，每次拍的图都很好看。我经常和他开玩笑说，“你不做food blogger太可惜了！”。所以接这次机会，我就帮他把网页先做了~ 写的“City:”下面的各个城市和国家是以后做链接到他的每篇review文章。
